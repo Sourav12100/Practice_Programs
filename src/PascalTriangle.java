@@ -7,7 +7,7 @@ public class PascalTriangle{
             }
             int number=1;
             for (k=0;k<=i;k++) {
-                System.out.print(" " + number + " ");
+                System.out.print(" " + number);
                 number = number*(i - k) / (k + 1);
             }
             System.out.println();

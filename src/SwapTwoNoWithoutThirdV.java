@@ -7,6 +7,6 @@ public class SwapTwoNoWithoutThirdV
         a=a+b;
         b=a-b;
         a=b-a;
-        System.out.println("After swapping");
+        System.out.println("After swapping values are:"+a+" "+b);
     }
 }
